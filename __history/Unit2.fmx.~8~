@@ -1,0 +1,182 @@
+object Form2: TForm2
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 480
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object Layout1: TLayout
+    Align = Client
+    HitTest = True
+    Size.Width = 640.000000000000000000
+    Size.Height = 480.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    OnMouseMove = Layout1MouseMove
+    object Circle1: TCircle
+      Locked = True
+      HitTest = False
+      Position.X = 304.000000000000000000
+      Position.Y = 368.000000000000000000
+      Size.Width = 25.000000000000000000
+      Size.Height = 25.000000000000000000
+      Size.PlatformDefault = False
+      object FloatAnimation1: TFloatAnimation
+        AnimationType = InOut
+        AutoReverse = True
+        Duration = 2.000000000000000000
+        Interpolation = Cubic
+        Loop = True
+        OnProcess = FloatAnimation1Process
+        PropertyName = 'Position.Y'
+        StartValue = 600.000000000000000000
+        StopValue = 200.000000000000000000
+      end
+    end
+    object RoundRect2: TRoundRect
+      Locked = True
+      HitTest = False
+      Position.X = 72.000000000000000000
+      Position.Y = 376.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 10.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object RoundRect3: TRoundRect
+      Locked = True
+      HitTest = False
+      Position.X = 536.000000000000000000
+      Position.Y = 376.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 10.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object RoundRect4: TRoundRect
+      Locked = True
+      HitTest = False
+      Position.X = 304.000000000000000000
+      Position.Y = 416.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 10.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object RoundRect5: TRoundRect
+      Locked = True
+      HitTest = False
+      Position.X = 448.000000000000000000
+      Position.Y = 336.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 10.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object RoundRect6: TRoundRect
+      Locked = True
+      HitTest = False
+      Position.X = 208.000000000000000000
+      Position.Y = 312.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 10.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object RoundRect8: TRoundRect
+      Locked = True
+      HitTest = False
+      Position.X = 272.000000000000000000
+      Position.Y = 256.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 10.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object RoundRect9: TRoundRect
+      Locked = True
+      HitTest = False
+      Position.X = 352.000000000000000000
+      Position.Y = 192.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 10.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object RoundRect11: TRoundRect
+      Locked = True
+      HitTest = False
+      Position.X = 512.000000000000000000
+      Position.Y = 208.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 10.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object RoundRect14: TRoundRect
+      Locked = True
+      HitTest = False
+      Position.X = 192.000000000000000000
+      Position.Y = 88.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 10.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object RoundRect15: TRoundRect
+      Locked = True
+      HitTest = False
+      Position.X = 128.000000000000000000
+      Position.Y = 424.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 10.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object RoundRect16: TRoundRect
+      Locked = True
+      HitTest = False
+      Position.X = 56.000000000000000000
+      Position.Y = 32.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 10.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object RoundRect17: TRoundRect
+      Locked = True
+      HitTest = False
+      Position.X = 520.000000000000000000
+      Position.Y = 48.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 10.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object RoundRect18: TRoundRect
+      Locked = True
+      HitTest = False
+      Position.X = 216.000000000000000000
+      Position.Y = 176.000000000000000000
+      Size.Width = 50.000000000000000000
+      Size.Height = 10.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object Label1: TLabel
+      Align = Top
+      StyledSettings = [Family, FontColor]
+      Locked = True
+      Size.Width = 640.000000000000000000
+      Size.Height = 30.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 20.000000000000000000
+      TextSettings.Font.Style = [fsBold, fsItalic]
+      TextSettings.HorzAlign = Center
+      Text = 'Resultado'
+    end
+    object Button1: TButton
+      Align = Center
+      StyledSettings = [Family, FontColor]
+      Size.Width = 241.000000000000000000
+      Size.Height = 225.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 10
+      Text = 'Play'
+      TextSettings.Font.Size = 20.000000000000000000
+      TextSettings.Font.Style = [fsBold, fsItalic]
+      OnClick = Button1Click
+    end
+  end
+end
